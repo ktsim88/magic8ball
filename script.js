@@ -11,9 +11,10 @@ function shakeMagicBall() {
     let responseImg = document.getElementById('response-image')
     if (randomNumber === 0) {
       eightBall = 'It is certain'
-      
+      responseImg.src = 'imgs/duoBell.gif'
     } else if (randomNumber === 1) {
-        eightBall = 'It is decidely so'
+      eightBall = 'It is decidely so'
+      responseImg.src = 'imgs/Duolingo_Sharing (1).jpg'
     } else if (randomNumber === 2) {
       eightBall = 'Reply hazy try again'
       responseImg.src = 'imgs/duoBackpack.gif'
@@ -31,7 +32,7 @@ function shakeMagicBall() {
       responseImg.src = 'imgs/outlookNoBuenoDuo.jpg'
     } else if (randomNumber === 7) {
       eightBall = 'Signs point to yes'
-      responseImg.src = 'imgs/simpson.jpg'
+      responseImg.src = 'imgs/mistakeAgain.png'
     }
     console.log(eightBall)
     document.getElementById('response-text').innerText = `${userName} has asked the magic 8 ball ${userQuestion}. The wise 8 ball has replied with ${eightBall}`
