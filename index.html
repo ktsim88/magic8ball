@@ -16,6 +16,8 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.typekit.net/dzo6fgu.css">
     </head>
 
     <body>
@@ -23,15 +25,14 @@
             <!-- place navbar here -->
         </header>
         <main>
-            <div id="magic-8-ball" class="container text-center my-auto">
+            <div id="magic-8-ball" class="container text-center my-auto mb-5">
                 <div class="row mx-5 py-3">
                 <h1 id="greeting"></h1>
                 <div id="response-text">Ask a question</div>
-                <img src="imgs/duoEightBall.png" id="response-image" class="img-fluid">
+                <img src="imgs/duoEightBall.png" id="response-image" class="img-fluid mx-auto">
             </div>
-            <div class="row">
-                <button onclick="shakeMagicBall()" class="btn btn-danger">Shake the 8 Ball</button>
-            </div>
+            
+                <button onclick="shakeMagicBall()" class="btn btn-success">Shake the 8 Ball</button>
             </div>
         </main>
         <footer>

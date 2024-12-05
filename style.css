@@ -1,4 +1,36 @@
 #response-image.img-fluid {
-    height: min-content;
-    width: min-content;
+    height: 50%;
+    width: 800px;
 }
+body {
+    font-family: "ff-cocon-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(213, 255, 213);
+}
+.btn {
+        min-width: 130px;
+        height: 40px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        background: #58cc02;
+        box-shadow: 0 5px #46a302;
+}
+.btn:hover {
+    box-shadow: 0 3px #46a302;
+    top: 1px;
+  }
+  .btn:active {
+    box-shadow: 0 0 #46a302;
+    top: 5px;
+  }

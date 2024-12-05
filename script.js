@@ -20,6 +20,7 @@ function shakeMagicBall() {
       responseImg.src = 'imgs/duoBackpack.gif'
     } else if (randomNumber === 3) {
       eightBall = 'Cannot predict now'
+      // https://cdn.prod.website-files.com/61957817093bfaa9d0559032/641c2afa1c7ea275855bfbcd_giphy%20(1).gif
       responseImg.src = 'imgs/girlShocked.gif'
     } else if (randomNumber === 4) {
       eightBall = 'Do not count on it'
