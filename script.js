@@ -20,8 +20,7 @@ function shakeMagicBall() {
       responseImg.src = 'imgs/duoBackpack.gif'
     } else if (randomNumber === 3) {
       eightBall = 'Cannot predict now'
-      // https://cdn.prod.website-files.com/61957817093bfaa9d0559032/641c2afa1c7ea275855bfbcd_giphy%20(1).gif
-      responseImg.src = 'imgs/girlShocked.gif'
+      responseImg.src = 'imgs/duoEightBall.png'
     } else if (randomNumber === 4) {
       eightBall = 'Do not count on it'
       responseImg.src = "imgs/DuoAngryIdle.gif"
@@ -30,7 +29,7 @@ function shakeMagicBall() {
       responseImg.src = 'imgs/linIsScared.gif'
     } else if (randomNumber === 6) {
       eightBall = 'Outlook not so good'
-      responseImg.src = 'imgs/outlookNoBuenoDuo.jpg'
+      responseImg.src = 'imgs/duoAngrynoBg.png'
     } else if (randomNumber === 7) {
       eightBall = 'Signs point to yes'
       responseImg.src = 'imgs/mistakeAgain.png'
